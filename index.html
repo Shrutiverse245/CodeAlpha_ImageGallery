@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Moments Gallery</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<nav>
+    <div class="logo">MG</div>
+
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<section class="hero" id="home">
+    <h1>Moments Gallery</h1>
+    <p>
+        Explore Nature, Cars & Wildlife Through Stunning Photography
+    </p>
+</section>
+
+<section id="gallery">
+
+    <h2 class="section-title">Gallery Collection</h2>
+
+    <div class="filter-buttons">
+        <button onclick="filterImages('all')">All</button>
+        <button onclick="filterImages('nature')">Nature</button>
+        <button onclick="filterImages('cars')">Cars</button>
+        <button onclick="filterImages('animals')">Animals</button>
+    </div>
+
+    <div class="gallery">
+
+        <div class="image hidden nature">
+            <img src="c:\Users\91769\Desktop\Codealpha-Task1\images\nature 1.jpg" alt="">
+        </div>
+
+        <div class="image hidden nature">
+            <img src="c:\Users\91769\Desktop\Codealpha-Task1\images\nature 2.jpg" alt="">
+        </div>
+
+        <div class="image hidden cars">
+            <img src="c:\Users\91769\Desktop\Codealpha-Task1\images\car 1.jpg" alt="">
+        </div>
+
+        <div class="image hidden cars">
+            <img src="c:\Users\91769\Desktop\Codealpha-Task1\images\car 2.jpg" alt="">
+        </div>
+
+        <div class="image hidden animals">
+            <img src="c:\Users\91769\Desktop\Codealpha-Task1\images\animal 1.jpg" alt="">
+        </div>
+
+        <div class="image hidden animals">
+            <img src="c:\Users\91769\Desktop\Codealpha-Task1\images\amimal 2.jpg" alt="">
+        </div>
+
+    </div>
+
+</section>
+
+<section class="about" id="about">
+    <h2>About</h2>
+
+    <p>
+        Moments Gallery is a modern and aesthetic image gallery
+        designed to showcase beautiful photography with a clean,
+        responsive and user-friendly interface.
+    </p>
+</section>
+
+<section class="contact" id="contact">
+    <h2>Contact</h2>
+
+    <p>Email: shrutiurkude@gmail.com</p>
+    <p>Instagram: @momentsgallery</p>
+</section>
+
+<footer>
+    <p>© 2026 Moments Gallery | Designed by Shruti Urkude</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
